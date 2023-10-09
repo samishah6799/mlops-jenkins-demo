@@ -7,3 +7,6 @@ def test_bulb_isOff():
 def test_bulb_isOn():
     bulb.isOn()
     assert bulb.getStatus() == "Bulb is glowing"
+
+def test_getStatus():
+    assert bulb.getStatus() == "Bulb is glowing"
